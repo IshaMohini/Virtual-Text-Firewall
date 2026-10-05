@@ -439,9 +439,9 @@ Removes the kernel module safely.
 
 Contains extra information about the project architecture and design.
 
-### Generated Files
+### Build Files Not Included in Git
 
-The following generated files are not stored in Git:
+The following  files are not stored in Git:
 
 ```text
 *.ko

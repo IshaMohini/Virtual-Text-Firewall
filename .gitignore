@@ -1,0 +1,35 @@
+# Kernel module build artifacts
+*.ko
+*.mod
+*.mod.c
+*.mod.o
+*.o
+*.o.d
+*.cmd
+.*.cmd
+.tmp_versions/
+modules.order
+Module.symvers
+Module.markers
+.cache.mk
+*.ko.cmd
+*.mod.cmd
+.*.o.cmd
+*.ko.unsigned
+.virt_firewall*
+
+# C++ user-space build artifacts
+firewall_ui
+user_app/firewall_ui
+*.out
+*.exe
+*.a
+*.so
+
+# Editor and OS temporary files
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+Thumbs.db
